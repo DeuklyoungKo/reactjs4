@@ -8,8 +8,11 @@
 // any CSS you require will output into a single css file (app.css in this case)
 import '../css/app.css';
 import getNiceMessage from './get_nice_message';
+import $ from 'jquery';
+// uncomment to support legacy code
+// global.$ = $;
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to require it.
 // const $ = require('jquery');
 
-console.log(getNiceMessage(4));
+console.log(getNiceMessage(5));
