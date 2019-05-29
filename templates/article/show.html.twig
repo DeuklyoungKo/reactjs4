@@ -81,5 +81,11 @@
 {% block javascripts %}
     {{ parent() }}
 
-    <script src="{{ asset('js/article_show.js') }}"></script>
+    {{ encore_entry_script_tags('article_show')}}
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+
+    {{ encore_entry_link_tags('article_show')}}
 {% endblock %}
