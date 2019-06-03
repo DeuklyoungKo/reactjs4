@@ -23,5 +23,8 @@
         "watch": "encore dev --watch --public http://reactjs.test.com --host 0.0.0.0",
         "build": "encore production --progress"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "browserslist": [
+        "> 5%"
+    ]
 }
